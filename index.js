@@ -11,6 +11,7 @@ buttonTarefa.onclick = function() {
     const novoItem = document.createElement('li');
     novoItem.textContent = tarefa;
     lista.appendChild(novoItem);
+    inputTarefa.value = "";
 
     // Adiciona o botão Apagar
     const botaoApagar = document.createElement('button');
@@ -34,6 +35,9 @@ buttonTarefa.onclick = function() {
     botaoConcluido.onclick = function() {
       novoItem.classList.toggle('liConcluida');
     };
+
+  
+
   }
 };
 
