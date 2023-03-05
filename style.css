@@ -13,6 +13,11 @@
     margin-top: 40px;
     text-align: center;
   }
+  label{
+    font-family: sans-serif;
+    font-size: 16px;
+  font-style: oblique;
+  }
   
   .inputTarefa {
     border: 1px solid;
@@ -26,6 +31,7 @@
     width: 100px;
     background-color: aqua;
     border-radius: 5px;
+    border: 2px solid black;
   }
   
   .lista {
@@ -38,8 +44,13 @@
   }
   
 .botaoApagar {
-    background-color: red;
+    background-color: rgb(27, 80, 255);
     color: white;
     padding: 0 10px;
     margin-left: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
   }
+  .liConcluida {
+  text-decoration: line-through;
+}
